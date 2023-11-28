@@ -4,7 +4,7 @@ from calculations import *
 class TestCalculations(unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(2, 3), 5)
-        self.assertFalse(add(2, 2) == 5)
+        self.assertFalse(add(2, 2) == 4)
         self.assertTrue(add(2, 2) == 4)
         self.assertRaises(TypeError, add("x", "y"))
 
