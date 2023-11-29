@@ -1,4 +1,4 @@
-from calculations import *
+from calculations import add, multiply, power
 
 
 class TestCalculations:
